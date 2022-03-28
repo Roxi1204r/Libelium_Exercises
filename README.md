@@ -353,6 +353,8 @@ The folowing screenshot is from a previous data transmission, on a different boa
 <p align = "center"><img width="200" height="400" src="./images/mqtt.jpg"></p>
 <br>
 
-<h3>7. Data visualisation - [Grafana Dashboard](https://grafana.beia-telemetrie.ro/d/OwQacm_Gk/training-roxana?orgId=1&from=1648459185319&to=1648461443902) </h3>
+<h3>7. Data visualisation - [Grafana Dashboard](
+  https://grafana.beia-telemetrie.ro/d/OwQacm_Gk/training-roxana?orgId=1&from=1648459185319&to=1648461443902) </h3>
 <p align = "center"><img src="./images/grafana.jpg"></p>
+<a href="https://grafana.beia-telemetrie.ro/d/OwQacm_Gk/training-roxana?orgId=1&from=1648459185319&to=1648461443902">Download Page</a>
 
