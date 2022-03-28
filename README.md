@@ -84,13 +84,14 @@ void loop()
     USB.print(F("WiFi is connected ERROR")); 
   }
 }
-
+```
 
 <p align = "center"><img src = "./images/wifi.jpg"></p>
 <br>
 
 <h3>2. RTC time</h3>
 Real-time clock (RTC) is used to measure time even when the main device is powered off.
+
 ```
 void setup()
 {
@@ -113,6 +114,7 @@ void loop()
 <br>
 
 <h3>3. Battery Level</h3>
+
 ```
 void setup()
 {
@@ -133,10 +135,12 @@ void loop()
 }
 
 ```
+
 <p align = "center"><img src = "./images/battery.jpg"></p>
 <br>
 
 <h3>4. Temperature and gas concentration data </h3>
+
 ```
 #include <WaspSensorGas_v30.h>
 #include <WaspFrame.h>
@@ -197,9 +201,10 @@ void loop()
 }
 
 ```
-<br>
 
+<br>
 <h3>5. Send data via WiFI to Meshlium 82.78.81.178</h3>
+
 ```
 #include <WaspWIFI_PRO.h>
 #include <WaspSensorGas_v30.h>
@@ -339,6 +344,7 @@ void loop()
   delay(3000); 
 }
 ```
+
 <p align = "center"><img src="./images/code_v2.jpg"></p>
 <br>
 
