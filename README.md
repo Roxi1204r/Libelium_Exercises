@@ -5,7 +5,7 @@ Board: Smart Gases v30
 Communication: WiFi PRO Module 
 </b>
 
-####1. WiFi ESSID communication
+<h3>1. WiFi ESSID communication</h3>
 In order to send data to a web server located on the Internet, a connection must be established using the WiFi PRO module. For this we have to provide in the code the network name and the password (for security, I replaced the credentials with '*'). The code for this configuration:
 ```
 #include <WaspWIFI_PRO.h>
