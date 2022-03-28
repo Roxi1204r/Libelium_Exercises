@@ -6,14 +6,15 @@ Communication: WiFi PRO Module
 </b>
 
 <h3>1. WiFi ESSID communication</h3>
-In order to send data to a web server located on the Internet, a connection must be established using the WiFi PRO module. For this we have to provide in the code the network name and the password (for security, I replaced the credentials with '*'). The code for this configuration:
+In order to send data to a web server located on the Internet, a connection must be established using the WiFi PRO module. For this we have to provide in the code the network name and the password (for security, I replaced the credentials). 
+The code for this configuration:
 ```
 #include <WaspWIFI_PRO.h>
 
 uint8_t socket = SOCKET0;
 
-char ESSID[] = "libelium_AP";
-char PASSW[] = "password";
+char ESSID[] = "****";
+char PASSW[] = "****";
 
 uint8_t error;
 uint8_t status;
