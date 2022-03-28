@@ -86,7 +86,7 @@ void loop()
 <p align = "center"><img src = "./images/wifi.jpg"></p>
 <br>
 
-#### 2. RTC time
+<h3>2. RTC time</h3>
 Real-time clock (RTC) is used to measure time even when the main device is powered off.
 ```
 void setup()
@@ -109,7 +109,7 @@ void loop()
 <p align = "center"><img src = "./images/rtc.jpg"></p>
 <br>
 
-####3. Battery Level
+<h3>3. Battery Level</h3>
 ```
 void setup()
 {
@@ -133,7 +133,7 @@ void loop()
 <p align = "center"><img src = "./images/battery.jpg"></p>
 <br>
 
-####4. Temperature and gas concentration data 
+<h3>4. Temperature and gas concentration data </h3>
 ```
 #include <WaspSensorGas_v30.h>
 #include <WaspFrame.h>
@@ -196,7 +196,7 @@ void loop()
 ```
 <br>
 
-####5. Send data via WiFI to Meshlium 82.78.81.178
+<h3>5. Send data via WiFI to Meshlium 82.78.81.178</h3>
 ```
 #include <WaspWIFI_PRO.h>
 #include <WaspSensorGas_v30.h>
@@ -339,11 +339,11 @@ void loop()
 <p align = "center"><img src="./images/code_v2.jpg"></p>
 <br>
 
-####6. Data transmission checked using MQTT Snooper
+<h3>6. Data transmission checked using MQTT Snooper</h3>
 The folowing screenshot is from a previous data transmission, on a different board.
 <p align = "center"><img width="200" height="400" src="./images/mqtt.jpg"></p>
 <br>
 
-####7. Data visualisation - [Grafana Dashboard](https://grafana.beia-telemetrie.ro/d/OwQacm_Gk/training-roxana?orgId=1&from=1648459185319&to=1648461443902)
+<h3>7. Data visualisation - [Grafana Dashboard](https://grafana.beia-telemetrie.ro/d/OwQacm_Gk/training-roxana?orgId=1&from=1648459185319&to=1648461443902)</h3>
 <p align = "center"><img src="./images/grafana.jpg"></p>
 
