@@ -86,7 +86,7 @@ void loop()
 <p align = "center"><img src = "./images/wifi.jpg"></p>
 <br>
 
-####2. RTC time
+#### 2. RTC time
 Real-time clock (RTC) is used to measure time even when the main device is powered off.
 ```
 void setup()
